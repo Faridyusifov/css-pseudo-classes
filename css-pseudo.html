@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>When do the :hover, :focus, :active</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <link href="css-pseudo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+     <h1>:hover, :focus, :active pseudo classes ne vaxt tetbiq olunur</h1>
+     <a href="#hover"><h2>Ne vaxt :hover tetbiq olunur</h2></a>
+     <a href="#focus"><h2>Ne vaxt :focus tetbiq olunur</h2></a>
+     <a href="#active"><h2>Ne vaxt :active tetbiq olunur</h2></a>
+     <a href="#both-pseudo"><h2>Her 3 pseudo tetbiq-i</h2></a>
+
+
+     <section id="hover">
+         <h4>Hover</h4>
+         <p>:hover tetbiq etdiyimizde meselen sicani hemin elementin uzerine getirdikde bas verecek deyisikleri yaza bilerik</p>
+         <pre class="code"><span class="clr-yellow">button:hover</span>{
+    <span class="clr-blue">background-color </span>:<span class="clr-value"> green </span>;
+}</pre>
+         <p>Meselen sicani asagidaki button-un uzerine getirdikde reng yashila deyishecek</p>
+         <button class="btn-hover-green">Uzerime gelsen yasil olacam</button>
+     </section>
+
+
+     <section id="focus">
+        <h4>Focus</h4>
+        <p>:focus tetbiq etdiyimizde meselen sicani hemin elementin uzerine vurduqda deyisikliyi verirsen.Bu deyisiklik ta ki ekranda bashqa yere vurana qeder bash verir.</p>
+        <pre class="code"><span class="clr-yellow">button:focus</span>{
+   <span class="clr-blue">background-color </span>:<span class="clr-value"> yellow </span>;
+}</pre>
+        <p>Meselen sicani asagidaki button-un uzerine getirib click-lesek reng sari renge deyisecek ve ekranda bashqa yere click-liyene qeder sari olacaq.</p>
+        <button class="btn-focus-yellow">Uzerime click-lesen sari olacam</button>
+    </section>
+
+
+    <section id="active">
+        <h4>Active</h4>
+        <p>:active tetbiq etdiyimizde meselen sicani hemin elementin uzerine getirib aktivleshdirdikde bash veren deyishikliyi veririk </p>
+        <pre class="code"><span class="clr-yellow">button:active</span>{
+   <span class="clr-blue">background-color </span>:<span class="clr-value"> red </span>;
+}</pre>
+        <p>Meselen sicani asagidaki button-un uzerine getirib aktivleshdirdikde qirmizi reng olacaq.</p>
+        <button class="btn-active-red">Active et</button>
+    </section>
+
+
+    <section id="both-pseudo">
+        <h4>Her 3 pseudo class-larini bu sira ile yazmaq lazimdi</h4>
+        <p>Melumdurki user seyfede ilk olaraq sicani birinci elementin uzerine getirecey,sonra fokuslayib active edecey.</p>
+        <pre class="code"><span class="clr-yellow">button:hover</span>{
+   <span class="clr-blue">background-color </span>:<span class="clr-value"> green </span>;
+}
+
+<span class="clr-yellow">button:focus</span>{
+    <span class="clr-blue">background-color </span>:<span class="clr-value"> yellow </span>;
+}
+
+ <span class="clr-yellow">button:active</span>{
+    <span class="clr-blue">background-color </span>:<span class="clr-value"> red </span>;
+}</pre>
+        <!-- <p>Meselen sicani asagidaki button-un uzerine getirib aktivleshdirdikde qirmizi reng olacaq.</p> -->
+        <button class="btn-both">Button</button>
+    </section>
+</body>
+</html>

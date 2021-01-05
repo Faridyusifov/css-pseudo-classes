@@ -1,0 +1,73 @@
+body{
+    background-color: gainsboro;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    color: tomato;
+}
+h2{
+    font-size: x-large;
+    color: firebrick;
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 15px;
+    font-family: cursive;
+}
+h4 {
+    color: brown;
+    font-size: 20px;
+    margin: 0px;
+}
+section {
+    background: cornsilk;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 50px 10px 20px;
+}
+.code{
+    background-color: black;
+    color: cornsilk;
+    padding: 10px;
+}
+.clr-yellow{
+    color: #ffdb3a;
+}
+.clr-blue{
+    color:blue;
+}
+.clr-value{
+    color: coral;
+}
+button{
+    height:30px;
+    font-size: 14px;
+    font-family: monospace;
+    border-radius: 5px;
+    outline: none;
+}
+.btn-hover-green:hover{
+    background-color: green;
+}
+.btn-focus-yellow:focus{
+    background-color: yellow;
+}
+.btn-active-red:active{
+    background-color: red;
+}
+
+.btn-both:hover{
+    background-color: green;
+}
+.btn-both:focus{
+    background-color: yellow;
+}
+.btn-both:active{
+    background-color: red;
+}
